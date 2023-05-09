@@ -1,15 +1,10 @@
 package hello.core;
 
-import hello.core.discount.FixDiscountPolicy;
 import hello.core.member.Grade;
 import hello.core.member.Member;
 import hello.core.order.Order;
 import hello.core.order.OrderService;
-import hello.core.order.OrderServiceImpl;
-import hello.core.repository.MemberRepository;
-import hello.core.repository.MemoryMemberRepository;
-import hello.core.service.MemberService;
-import hello.core.service.MemberServiceImpl;
+import hello.core.member.MemberService;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 

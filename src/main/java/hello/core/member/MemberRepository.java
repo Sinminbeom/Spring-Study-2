@@ -1,4 +1,4 @@
-package hello.core.repository;
+package hello.core.member;
 
 import hello.core.member.Member;
 

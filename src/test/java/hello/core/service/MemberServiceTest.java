@@ -3,13 +3,10 @@ package hello.core.service;
 import hello.core.AppConfig;
 import hello.core.member.Grade;
 import hello.core.member.Member;
-import hello.core.order.OrderService;
-import hello.core.repository.MemoryMemberRepository;
+import hello.core.member.MemberService;
 import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-
-import static org.junit.jupiter.api.Assertions.*;
 
 class MemberServiceTest {
 

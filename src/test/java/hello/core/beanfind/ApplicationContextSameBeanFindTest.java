@@ -1,10 +1,7 @@
 package hello.core.beanfind;
 
-import hello.core.AppConfig;
-import hello.core.discount.DiscountPolicy;
-import hello.core.repository.MemberRepository;
-import hello.core.repository.MemoryMemberRepository;
-import hello.core.service.MemberServiceImpl;
+import hello.core.member.MemberRepository;
+import hello.core.member.MemoryMemberRepository;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
