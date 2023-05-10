@@ -11,6 +11,8 @@ import hello.core.member.MemberServiceImpl;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
+// @Configuration이 있기 때문에 싱긑톤으로 빈이 등록되는 것이다. 주석처리하고 @Bean만 적어도 빈으로 등록이 되지만
+// 싱글톤이 되지 않는다
 @Configuration
 public class AppConfig {
     // @Bean memberService -> new MemoryMemberRepository()
